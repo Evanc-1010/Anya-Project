@@ -1,0 +1,49 @@
+:root {
+    --color-navbar-background: rgb(87, 103, 92);
+    --color-main-background: rgb(141, 169, 155);
+    --color-spy: rgb(44, 40, 39);
+    --color-spy-a: rgb(97, 10, 16);
+    --color-spy-b: rgb(250, 179, 173);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    min-height: 200vh;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    overflow-x: hidden;
+    background-color: var(--color-navbar-background);
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'Bungee Spice', cursive !important;
+
+}
+
+#navbar a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+    
+}
+
+#navbar a:hover {
+    background-color: var(--color-spy-b);
+}
