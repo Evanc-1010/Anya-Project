@@ -310,10 +310,11 @@ body {
     
 }
 
-#back-to-top > a > img {
-    width: 30%;
-    height: 100%;
+#back-to-top img {
+    width: 50%;
+    height: 90%;
     position: sticky;
+    
     
 
 }
